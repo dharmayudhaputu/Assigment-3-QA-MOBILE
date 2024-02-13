@@ -17,3 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\ACER\\Downloads\\android\\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\\Solodroid_E-CommerceApp Demo_3.2.0.apk', 
+    true)
+
+Mobile.tap(findTestObject('Object Repository/1 Checkout Feature/android.widget.TextView'), 0)
+
+Mobile.setText(findTestObject('Object Repository/1 Checkout Feature/android.widget.EditText - Search'), 'samsung', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/1 Checkout Feature/android.widget.ImageView'), 0)
+Mobile.delay(5)
+Mobile.closeApplication()
+
