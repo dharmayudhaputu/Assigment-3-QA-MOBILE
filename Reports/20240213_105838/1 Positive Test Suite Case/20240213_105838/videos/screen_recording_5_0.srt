@@ -1,0 +1,52 @@
+1
+00:00:00,080 --> 00:00:18,766
+1. startApplication("C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true)
+
+2
+00:00:18,767 --> 00:00:23,246
+5. tap(findTestObject("Object Repository/Fitur Help/android.widget.FrameLayout (1)"), 0)
+
+3
+00:00:23,247 --> 00:00:25,891
+9. tap(findTestObject("Object Repository/Fitur Help/android.widget.RelativeLayout"), 0)
+
+4
+00:00:25,892 --> 00:00:26,551
+13. tap(findTestObject("Object Repository/Fitur Help/android.widget.ImageButton"), 0)
+
+5
+00:00:26,551 --> 00:00:28,977
+17. tap(findTestObject("Object Repository/Fitur Help/android.widget.RelativeLayout (1)"), 0)
+
+6
+00:00:28,978 --> 00:00:29,166
+21. tap(findTestObject("Object Repository/Fitur Help/android.widget.ImageButton"), 0)
+
+7
+00:00:29,167 --> 00:00:31,486
+25. tap(findTestObject("Object Repository/Fitur Help/android.widget.RelativeLayout (2)"), 0)
+
+8
+00:00:31,487 --> 00:00:31,640
+29. tap(findTestObject("Object Repository/Fitur Help/android.widget.ImageButton"), 0)
+
+9
+00:00:31,641 --> 00:00:32,575
+33. tap(findTestObject("Object Repository/Fitur Help/android.widget.RelativeLayout (3)"), 0)
+
+10
+00:00:32,576 --> 00:00:34,227
+37. tap(findTestObject("Object Repository/Fitur Help/android.widget.ImageButton"), 0)
+
+11
+00:00:34,228 --> 00:00:36,513
+41. tap(findTestObject("Object Repository/Fitur Help/android.widget.RelativeLayout (4)"), 0)
+
+12
+00:00:36,513 --> 00:00:36,738
+45. tap(findTestObject("Object Repository/Fitur Help/android.widget.ImageButton"), 0)
+
+13
+00:00:36,739 --> 00:00:38,693
+49. closeApplication()
+

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="2 Negative Test Suite Case" time="92.132" tests="2" failures="0" errors="0">
+   <testsuite name="2 Negative Test Suite Case" tests="2" failures="0" errors="0" time="92.132" skipped="0" timestamp="13-02-2024T10:47:37" hostname="ACER - LAPTOP-DI70DTOM" id="Test Suites/2 Negative Test Suite Case">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Assigment-3-QA-MOBILE\\Reports\\20240213_104732\\2 Negative Test Suite Case\\20240213_104732"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Assigment-3-QA-MOBILE\\Reports\\20240213_104732\\2 Negative Test Suite Case\\20240213_104732\\appium.log, C:\\Users\\ACER\\git\\Assigment-3-QA-MOBILE\\Reports\\20240213_104732\\2 Negative Test Suite Case\\20240213_104732\\appium_error.log, C:\\Users\\ACER\\git\\Assigment-3-QA-MOBILE\\Reports\\20240213_104732\\2 Negative Test Suite Case\\20240213_104732\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-DI70DTOM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.0"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="172.16.213.178"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/6 Negatif Case - Add to Chart" time="57.275" classname="Test Cases/6 Negatif Case - Add to Chart" status="PASSED">
+         <system-out><![CDATA[13-02-2024T10:47:37 - [TEST_CASE][PASSED] - Test Cases/6 Negatif Case - Add to Chart: Test Cases/6 Negatif Case - Add to Chart
+
+13-02-2024T10:47:38 - [TEST_STEP][PASSED] - startApplication("C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T10:47:38 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T10:47:49 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T10:47:49 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\ACER\.appium
+
+13-02-2024T10:47:49 - [MESSAGE][INFO] - appium outlog: C:\Users\ACER\git\Assigment-3-QA-MOBILE\Reports\20240213_104732\2 Negative Test Suite Case\20240213_104732\appium.log
+
+13-02-2024T10:47:49 - [MESSAGE][INFO] - appium errlog: C:\Users\ACER\git\Assigment-3-QA-MOBILE\Reports\20240213_104732\2 Negative Test Suite Case\20240213_104732\appium_error.log
+
+13-02-2024T10:47:53 - [MESSAGE][INFO] - Appium server started on port 25,208
+
+13-02-2024T10:48:08 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T10:48:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.TextView"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.TextView'
+
+13-02-2024T10:48:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T10:48:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.TextView'
+
+13-02-2024T10:48:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - Search"), "samsung", 0): Text 'samsung' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - Search'
+
+13-02-2024T10:48:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T10:48:16 - [MESSAGE][PASSED] - Text 'samsung' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - Search'
+
+13-02-2024T10:48:16 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T10:48:17 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T10:48:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.ImageView"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.ImageView'
+
+13-02-2024T10:48:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T10:48:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.ImageView'
+
+13-02-2024T10:48:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.Button - ADD TO CART"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.Button - ADD TO CART'
+
+13-02-2024T10:48:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T10:48:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.Button - ADD TO CART'
+
+13-02-2024T10:48:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText"), "10", 0): Text '10' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText'
+
+13-02-2024T10:48:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T10:48:24 - [MESSAGE][PASSED] - Text '10' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText'
+
+13-02-2024T10:48:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.Button - ADD"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.Button - ADD'
+
+13-02-2024T10:48:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T10:48:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.Button - ADD'
+
+13-02-2024T10:48:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+13-02-2024T10:48:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+13-02-2024T10:48:30 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T10:48:31 - [MESSAGE][INFO] - Cannot close application! An unknown server-side error occurred while processing the command. Original error: 'com.solodroid.solomerce' is still running after 500ms timeout
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-DI70DTOM', ip: '172.16.213.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\ACER\Downloads\and..., appPackage: com.solodroid.solomerce, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\ACER\Downloads\and..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: emulator-5554 (Android SDK ..., fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: android, platformVersion: 8.1.0, systemPort: 25207, udid: emulator-5554}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, systemPort: 25207, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d19e116c-6c37-4b20-9430-0877092000ac
+
+13-02-2024T10:48:32 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T10:48:34 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/6 Negatif Case - Add to Chart' .
+
+13-02-2024T10:48:34 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/6 Negatif Case - Add to Chart' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/7 Negatif Case - Invalid Search" time="34.587" classname="Test Cases/7 Negatif Case - Invalid Search" status="PASSED">
+         <system-out><![CDATA[13-02-2024T10:48:34 - [TEST_CASE][PASSED] - Test Cases/7 Negatif Case - Invalid Search: Test Cases/7 Negatif Case - Invalid Search
+
+13-02-2024T10:48:34 - [TEST_STEP][PASSED] - startApplication("C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T10:48:35 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T10:48:40 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T10:48:40 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\ACER\.appium
+
+13-02-2024T10:48:40 - [MESSAGE][INFO] - appium outlog: C:\Users\ACER\git\Assigment-3-QA-MOBILE\Reports\20240213_104732\2 Negative Test Suite Case\20240213_104732\appium.log
+
+13-02-2024T10:48:40 - [MESSAGE][INFO] - appium errlog: C:\Users\ACER\git\Assigment-3-QA-MOBILE\Reports\20240213_104732\2 Negative Test Suite Case\20240213_104732\appium_error.log
+
+13-02-2024T10:48:44 - [MESSAGE][INFO] - Appium server started on port 25,479
+
+13-02-2024T10:48:54 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T10:48:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.TextView"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.TextView'
+
+13-02-2024T10:48:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T10:48:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.TextView'
+
+13-02-2024T10:48:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - Search"), "One Piece", 0): Text 'One Piece' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - Search'
+
+13-02-2024T10:48:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T10:49:00 - [MESSAGE][PASSED] - Text 'One Piece' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - Search'
+
+13-02-2024T10:49:00 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T10:49:00 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T10:49:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+13-02-2024T10:49:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+13-02-2024T10:49:05 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T10:49:07 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T10:49:09 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/7 Negatif Case - Invalid Search' .
+
+13-02-2024T10:49:09 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/7 Negatif Case - Invalid Search' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T10:47:37 - [TEST_SUITE][PASSED] - 2 Negative Test Suite Case: Test Cases/7 Negatif Case - Invalid Search]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,24 @@
+1
+00:00:00,064 --> 00:00:23,258
+1. startApplication("C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true)
+
+2
+00:00:23,260 --> 00:00:28,306
+5. tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.TextView"), 0)
+
+3
+00:00:28,307 --> 00:00:31,578
+9. setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - Search"), "One Piece", 0)
+
+4
+00:00:31,579 --> 00:00:32,369
+13. hideKeyboard()
+
+5
+00:00:32,370 --> 00:00:37,390
+17. delay(5)
+
+6
+00:00:37,391 --> 00:00:39,126
+21. closeApplication()
+

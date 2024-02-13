@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1 Positive Test Suite Case" time="357.275" tests="5" failures="0" errors="0">
+   <testsuite name="1 Positive Test Suite Case" tests="5" failures="0" errors="0" time="357.275" skipped="0" timestamp="13-02-2024T11:08:47" hostname="ACER - LAPTOP-DI70DTOM" id="Test Suites/1 Positive Test Suite Case">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.1.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Assigment-3-QA-MOBILE\\Reports\\20240213_110840\\1 Positive Test Suite Case\\20240213_110840"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Assigment-3-QA-MOBILE\\Reports\\20240213_110840\\1 Positive Test Suite Case\\20240213_110840\\appium.log, C:\\Users\\ACER\\git\\Assigment-3-QA-MOBILE\\Reports\\20240213_110840\\1 Positive Test Suite Case\\20240213_110840\\appium_error.log, C:\\Users\\ACER\\git\\Assigment-3-QA-MOBILE\\Reports\\20240213_110840\\1 Positive Test Suite Case\\20240213_110840\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ACER\\git\\Assigment-3-QA-MOBILE\\Reports\\20240213_110840\\1 Positive Test Suite Case\\20240213_110840\\1707793944951.png, C:\\Users\\ACER\\git\\Assigment-3-QA-MOBILE\\Reports\\20240213_110840\\1 Positive Test Suite Case\\20240213_110840\\1707793946387.png, C:\\Users\\ACER\\git\\Assigment-3-QA-MOBILE\\Reports\\20240213_110840\\1 Positive Test Suite Case\\20240213_110840\\1707794001502.png, C:\\Users\\ACER\\git\\Assigment-3-QA-MOBILE\\Reports\\20240213_110840\\1 Positive Test Suite Case\\20240213_110840\\1707794002582.png"/>
+         <property name="hostName" value="ACER - LAPTOP-DI70DTOM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.0"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="172.16.213.178"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 8.1.0)"/>
+         <property name="deviceOSVersion" value="8.1.0"/>
+      </properties>
+      <testcase name="Test Cases/1 Test Case Checkout" time="65.273" classname="Test Cases/1 Test Case Checkout" status="PASSED">
+         <system-out><![CDATA[13-02-2024T11:08:48 - [TEST_CASE][PASSED] - Test Cases/1 Test Case Checkout: Test Cases/1 Test Case Checkout
+
+13-02-2024T11:08:48 - [TEST_STEP][PASSED] - startApplication("C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:08:49 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T11:09:00 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T11:09:00 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\ACER\.appium
+
+13-02-2024T11:09:00 - [MESSAGE][INFO] - appium outlog: C:\Users\ACER\git\Assigment-3-QA-MOBILE\Reports\20240213_110840\1 Positive Test Suite Case\20240213_110840\appium.log
+
+13-02-2024T11:09:00 - [MESSAGE][INFO] - appium errlog: C:\Users\ACER\git\Assigment-3-QA-MOBILE\Reports\20240213_110840\1 Positive Test Suite Case\20240213_110840\appium_error.log
+
+13-02-2024T11:09:05 - [MESSAGE][INFO] - Appium server started on port 31,137
+
+13-02-2024T11:09:16 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:09:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.TextView"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.TextView'
+
+13-02-2024T11:09:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:09:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.TextView'
+
+13-02-2024T11:09:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - Search"), "samsung", 0): Text 'samsung' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - Search'
+
+13-02-2024T11:09:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:09:23 - [MESSAGE][PASSED] - Text 'samsung' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - Search'
+
+13-02-2024T11:09:23 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T11:09:24 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T11:09:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.ImageView"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.ImageView'
+
+13-02-2024T11:09:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:09:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.ImageView'
+
+13-02-2024T11:09:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.Button - ADD TO CART"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.Button - ADD TO CART'
+
+13-02-2024T11:09:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:09:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.Button - ADD TO CART'
+
+13-02-2024T11:09:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText"), "1", 0): Text '1' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText'
+
+13-02-2024T11:09:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:09:30 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText'
+
+13-02-2024T11:09:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.Button - ADD"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.Button - ADD'
+
+13-02-2024T11:09:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:09:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.Button - ADD'
+
+13-02-2024T11:09:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.TextView (1)"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.TextView (1)'
+
+13-02-2024T11:09:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:09:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.TextView (1)'
+
+13-02-2024T11:09:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.Button - CHECKOUT"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.Button - CHECKOUT'
+
+13-02-2024T11:09:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:09:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.Button - CHECKOUT'
+
+13-02-2024T11:09:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - Your Name"), "yudha", 0): Text 'yudha' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - Your Name'
+
+13-02-2024T11:09:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:09:37 - [MESSAGE][PASSED] - Text 'yudha' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - Your Name'
+
+13-02-2024T11:09:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - your.emailgmail.com"), "yudha@gmail.com", 0): Text 'yudha@gmail.com' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - your.emailgmail.com'
+
+13-02-2024T11:09:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:09:40 - [MESSAGE][PASSED] - Text 'yudha@gmail.com' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - your.emailgmail.com'
+
+13-02-2024T11:09:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - 628123456789"), "+6281353081122", 0): Text '+6281353081122' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - 628123456789'
+
+13-02-2024T11:09:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:09:42 - [MESSAGE][PASSED] - Text '+6281353081122' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - 628123456789'
+
+13-02-2024T11:09:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - Your Address"), "Jalan Medan Merdeka No 5 Jakarta", 0): Text 'Jalan Medan Merdeka No 5 Jakarta' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - Your Address'
+
+13-02-2024T11:09:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:09:45 - [MESSAGE][PASSED] - Text 'Jalan Medan Merdeka No 5 Jakarta' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - Your Address'
+
+13-02-2024T11:09:45 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T11:09:45 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T11:09:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - Comment"), "nice product", 0): Text 'nice product' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - Comment'
+
+13-02-2024T11:09:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:09:48 - [MESSAGE][PASSED] - Text 'nice product' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - Comment'
+
+13-02-2024T11:09:48 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T11:09:49 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T11:09:49 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T11:09:50 - [MESSAGE][INFO] - Cannot close application! An unknown server-side error occurred while processing the command. Original error: 'com.solodroid.solomerce' is still running after 500ms timeout
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-DI70DTOM', ip: '172.16.213.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\ACER\Downloads\and..., appPackage: com.solodroid.solomerce, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\ACER\Downloads\and..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: emulator-5554 (Android SDK ..., fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: android, platformVersion: 8.1.0, systemPort: 31136, udid: emulator-5554}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, systemPort: 31136, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2f4106aa-9981-4b45-9f9d-cbe615732d69
+
+13-02-2024T11:09:51 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T11:09:53 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/1 Test Case Checkout' .
+
+13-02-2024T11:09:53 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/1 Test Case Checkout' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 Test Case Search Item" time="44.697" classname="Test Cases/2 Test Case Search Item" status="PASSED">
+         <system-out><![CDATA[13-02-2024T11:09:53 - [TEST_CASE][PASSED] - Test Cases/2 Test Case Search Item: Test Cases/2 Test Case Search Item
+
+13-02-2024T11:09:53 - [TEST_STEP][PASSED] - startApplication("C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:09:53 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T11:10:04 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T11:10:04 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\ACER\.appium
+
+13-02-2024T11:10:04 - [MESSAGE][INFO] - appium outlog: C:\Users\ACER\git\Assigment-3-QA-MOBILE\Reports\20240213_110840\1 Positive Test Suite Case\20240213_110840\appium.log
+
+13-02-2024T11:10:04 - [MESSAGE][INFO] - appium errlog: C:\Users\ACER\git\Assigment-3-QA-MOBILE\Reports\20240213_110840\1 Positive Test Suite Case\20240213_110840\appium_error.log
+
+13-02-2024T11:10:08 - [MESSAGE][INFO] - Appium server started on port 31,464
+
+13-02-2024T11:10:17 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:10:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.TextView"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.TextView'
+
+13-02-2024T11:10:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:10:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.TextView'
+
+13-02-2024T11:10:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - Search"), "samsung", 0): Text 'samsung' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - Search'
+
+13-02-2024T11:10:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:10:25 - [MESSAGE][PASSED] - Text 'samsung' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - Search'
+
+13-02-2024T11:10:25 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T11:10:26 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T11:10:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.ImageView"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.ImageView'
+
+13-02-2024T11:10:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:10:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.ImageView'
+
+13-02-2024T11:10:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+13-02-2024T11:10:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+13-02-2024T11:10:34 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T11:10:35 - [MESSAGE][INFO] - Cannot close application! An unknown server-side error occurred while processing the command. Original error: 'com.solodroid.solomerce' is still running after 500ms timeout
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-DI70DTOM', ip: '172.16.213.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\ACER\Downloads\and..., appPackage: com.solodroid.solomerce, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\ACER\Downloads\and..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: emulator-5554 (Android SDK ..., fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: android, platformVersion: 8.1.0, systemPort: 31462, udid: emulator-5554}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, systemPort: 31462, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a5e3c5b5-34ca-4107-b45e-6a3549fb5cd3
+
+13-02-2024T11:10:36 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T11:10:38 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 Test Case Search Item' .
+
+13-02-2024T11:10:38 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 Test Case Search Item' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3 Add to chart" time="43.912" classname="Test Cases/3 Add to chart" status="PASSED">
+         <system-out><![CDATA[13-02-2024T11:10:38 - [TEST_CASE][PASSED] - Test Cases/3 Add to chart: Test Cases/3 Add to chart
+
+13-02-2024T11:10:38 - [TEST_STEP][PASSED] - startApplication("C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:10:38 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T11:10:43 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T11:10:43 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\ACER\.appium
+
+13-02-2024T11:10:43 - [MESSAGE][INFO] - appium outlog: C:\Users\ACER\git\Assigment-3-QA-MOBILE\Reports\20240213_110840\1 Positive Test Suite Case\20240213_110840\appium.log
+
+13-02-2024T11:10:43 - [MESSAGE][INFO] - appium errlog: C:\Users\ACER\git\Assigment-3-QA-MOBILE\Reports\20240213_110840\1 Positive Test Suite Case\20240213_110840\appium_error.log
+
+13-02-2024T11:10:47 - [MESSAGE][INFO] - Appium server started on port 31,739
+
+13-02-2024T11:10:56 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:10:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.TextView"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.TextView'
+
+13-02-2024T11:10:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:11:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.TextView'
+
+13-02-2024T11:11:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - Search"), "samsung", 0): Text 'samsung' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - Search'
+
+13-02-2024T11:11:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:11:04 - [MESSAGE][PASSED] - Text 'samsung' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText - Search'
+
+13-02-2024T11:11:04 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T11:11:05 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T11:11:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.ImageView"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.ImageView'
+
+13-02-2024T11:11:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:11:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.ImageView'
+
+13-02-2024T11:11:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.Button - ADD TO CART"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.Button - ADD TO CART'
+
+13-02-2024T11:11:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:11:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.Button - ADD TO CART'
+
+13-02-2024T11:11:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText"), "1", 0): Text '1' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText'
+
+13-02-2024T11:11:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:11:11 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/1 Checkout Feature/android.widget.EditText'
+
+13-02-2024T11:11:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.Button - ADD"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.Button - ADD'
+
+13-02-2024T11:11:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:11:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.Button - ADD'
+
+13-02-2024T11:11:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.TextView (1)"), 0): Tapped on element 'Object Repository/1 Checkout Feature/android.widget.TextView (1)'
+
+13-02-2024T11:11:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:11:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1 Checkout Feature/android.widget.TextView (1)'
+
+13-02-2024T11:11:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+13-02-2024T11:11:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+13-02-2024T11:11:18 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T11:11:19 - [MESSAGE][INFO] - Cannot close application! An unknown server-side error occurred while processing the command. Original error: 'com.solodroid.solomerce' is still running after 500ms timeout
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-DI70DTOM', ip: '172.16.213.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\ACER\Downloads\and..., appPackage: com.solodroid.solomerce, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\ACER\Downloads\and..., autoGrantPermissions: true, automationName: uiautomator2, deviceName: emulator-5554 (Android SDK ..., fullReset: true, newCommandTimeout: 1800, noReset: false, platformName: android, platformVersion: 8.1.0, systemPort: 31737, udid: emulator-5554}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, systemPort: 31737, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e22236c5-f3e1-4e66-924f-06079eec2b59
+
+13-02-2024T11:11:20 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T11:11:22 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/3 Add to chart' .
+
+13-02-2024T11:11:22 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/3 Add to chart' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4 Test Case Kategori" time="33.625" classname="Test Cases/4 Test Case Kategori" status="PASSED">
+         <system-out><![CDATA[13-02-2024T11:13:25 - [TEST_CASE][PASSED] - Test Cases/4 Test Case Kategori: Test Cases/4 Test Case Kategori
+
+13-02-2024T11:13:25 - [TEST_STEP][PASSED] - startApplication("C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:13:36 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:13:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.FrameLayout'
+
+13-02-2024T11:13:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:13:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.FrameLayout'
+
+13-02-2024T11:13:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.RelativeLayout"), 0): Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.RelativeLayout'
+
+13-02-2024T11:13:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:13:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.RelativeLayout'
+
+13-02-2024T11:13:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.ImageView"), 0): Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.ImageView'
+
+13-02-2024T11:13:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:13:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.ImageView'
+
+13-02-2024T11:13:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.ImageButton'
+
+13-02-2024T11:13:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:13:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.ImageButton'
+
+13-02-2024T11:13:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.ImageButton'
+
+13-02-2024T11:13:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:13:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.ImageButton'
+
+13-02-2024T11:13:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.RelativeLayout (1)"), 0): Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.RelativeLayout (1)'
+
+13-02-2024T11:13:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:13:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.RelativeLayout (1)'
+
+13-02-2024T11:13:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.ImageView (1)'
+
+13-02-2024T11:13:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:13:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.ImageView (1)'
+
+13-02-2024T11:13:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.ImageButton (1)'
+
+13-02-2024T11:13:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:13:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.ImageButton (1)'
+
+13-02-2024T11:13:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.ImageButton'
+
+13-02-2024T11:13:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:13:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2 Fitur Kategori/android.widget.ImageButton'
+
+13-02-2024T11:13:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+13-02-2024T11:13:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+13-02-2024T11:13:55 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T11:13:57 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T11:13:59 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/4 Test Case Kategori' .
+
+13-02-2024T11:13:59 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/4 Test Case Kategori' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/5 Test Case - Help (payment, how to order etc)" time="45.77" classname="Test Cases/5 Test Case - Help (payment, how to order etc)" status="PASSED">
+         <system-out><![CDATA[13-02-2024T11:13:59 - [TEST_CASE][PASSED] - Test Cases/5 Test Case - Help (payment, how to order etc): Test Cases/5 Test Case - Help (payment, how to order etc)
+
+13-02-2024T11:13:59 - [TEST_STEP][PASSED] - startApplication("C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:13:59 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T11:14:10 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T11:14:10 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\ACER\.appium
+
+13-02-2024T11:14:10 - [MESSAGE][INFO] - appium outlog: C:\Users\ACER\git\Assigment-3-QA-MOBILE\Reports\20240213_110840\1 Positive Test Suite Case\20240213_110840\appium.log
+
+13-02-2024T11:14:10 - [MESSAGE][INFO] - appium errlog: C:\Users\ACER\git\Assigment-3-QA-MOBILE\Reports\20240213_110840\1 Positive Test Suite Case\20240213_110840\appium_error.log
+
+13-02-2024T11:14:14 - [MESSAGE][INFO] - Appium server started on port 32,630
+
+13-02-2024T11:14:23 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:14:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Fitur Help/android.widget.FrameLayout (1)"), 0): Tapped on element 'Object Repository/Fitur Help/android.widget.FrameLayout (1)'
+
+13-02-2024T11:14:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:14:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Fitur Help/android.widget.FrameLayout (1)'
+
+13-02-2024T11:14:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Fitur Help/android.widget.RelativeLayout"), 0): Tapped on element 'Object Repository/Fitur Help/android.widget.RelativeLayout'
+
+13-02-2024T11:14:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:14:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Fitur Help/android.widget.RelativeLayout'
+
+13-02-2024T11:14:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Fitur Help/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Fitur Help/android.widget.ImageButton'
+
+13-02-2024T11:14:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:14:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Fitur Help/android.widget.ImageButton'
+
+13-02-2024T11:14:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Fitur Help/android.widget.RelativeLayout (1)"), 0): Tapped on element 'Object Repository/Fitur Help/android.widget.RelativeLayout (1)'
+
+13-02-2024T11:14:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:14:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Fitur Help/android.widget.RelativeLayout (1)'
+
+13-02-2024T11:14:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Fitur Help/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Fitur Help/android.widget.ImageButton'
+
+13-02-2024T11:14:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:14:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Fitur Help/android.widget.ImageButton'
+
+13-02-2024T11:14:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Fitur Help/android.widget.RelativeLayout (2)"), 0): Tapped on element 'Object Repository/Fitur Help/android.widget.RelativeLayout (2)'
+
+13-02-2024T11:14:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:14:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Fitur Help/android.widget.RelativeLayout (2)'
+
+13-02-2024T11:14:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Fitur Help/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Fitur Help/android.widget.ImageButton'
+
+13-02-2024T11:14:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:14:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Fitur Help/android.widget.ImageButton'
+
+13-02-2024T11:14:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Fitur Help/android.widget.RelativeLayout (3)"), 0): Tapped on element 'Object Repository/Fitur Help/android.widget.RelativeLayout (3)'
+
+13-02-2024T11:14:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:14:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Fitur Help/android.widget.RelativeLayout (3)'
+
+13-02-2024T11:14:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Fitur Help/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Fitur Help/android.widget.ImageButton'
+
+13-02-2024T11:14:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:14:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Fitur Help/android.widget.ImageButton'
+
+13-02-2024T11:14:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Fitur Help/android.widget.RelativeLayout (4)"), 0): Tapped on element 'Object Repository/Fitur Help/android.widget.RelativeLayout (4)'
+
+13-02-2024T11:14:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:14:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Fitur Help/android.widget.RelativeLayout (4)'
+
+13-02-2024T11:14:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Fitur Help/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Fitur Help/android.widget.ImageButton'
+
+13-02-2024T11:14:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:14:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Fitur Help/android.widget.ImageButton'
+
+13-02-2024T11:14:41 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T11:14:43 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T11:14:45 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/5 Test Case - Help (payment, how to order etc)' .
+
+13-02-2024T11:14:45 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/5 Test Case - Help (payment, how to order etc)' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T11:08:47 - [TEST_SUITE][FAILED] - 1 Positive Test Suite Case: Test Cases/4 Test Case Kategori FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/2 Fitur Kategori/android.widget.RelativeLayout (1)'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at 4 Test Case Kategori.run(4 Test Case Kategori:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707793720562.run(TempTestSuite1707793720562.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/2 Fitur Kategori/android.widget.RelativeLayout (1) not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[13-02-2024T11:08:47 - [TEST_SUITE][FAILED] - 1 Positive Test Suite Case: Test Cases/4 Test Case Kategori FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/2 Fitur Kategori/android.widget.RelativeLayout (1)'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at 4 Test Case Kategori.run(4 Test Case Kategori:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707793720562.run(TempTestSuite1707793720562.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/2 Fitur Kategori/android.widget.RelativeLayout (1) not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

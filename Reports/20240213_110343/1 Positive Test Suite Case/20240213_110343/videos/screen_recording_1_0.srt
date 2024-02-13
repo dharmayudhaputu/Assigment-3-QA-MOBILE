@@ -1,0 +1,72 @@
+1
+00:00:00,208 --> 00:00:29,116
+1. startApplication("C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true)
+
+2
+00:00:29,128 --> 00:00:33,113
+5. tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.TextView"), 0)
+
+3
+00:00:33,115 --> 00:00:36,624
+9. setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - Search"), "samsung", 0)
+
+4
+00:00:36,625 --> 00:00:37,648
+13. hideKeyboard()
+
+5
+00:00:37,649 --> 00:00:39,208
+17. tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.ImageView"), 0)
+
+6
+00:00:39,209 --> 00:00:42,247
+21. tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.Button - ADD TO CART"), 0)
+
+7
+00:00:42,248 --> 00:00:44,958
+25. setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText"), "1", 0)
+
+8
+00:00:44,958 --> 00:00:45,543
+29. tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.Button - ADD"), 0)
+
+9
+00:00:45,545 --> 00:00:46,432
+33. tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.TextView (1)"), 0)
+
+10
+00:00:46,432 --> 00:00:47,654
+37. tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.Button - CHECKOUT"), 0)
+
+11
+00:00:47,655 --> 00:00:51,765
+41. setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - Your Name"), "yudha", 0)
+
+12
+00:00:51,765 --> 00:00:54,235
+45. setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - your.emailgmail.com"), "yudha@gmail.com", 0)
+
+13
+00:00:54,236 --> 00:00:56,616
+49. setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - 628123456789"), "+6281353081122", 0)
+
+14
+00:00:56,617 --> 00:00:59,037
+53. setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - Your Address"), "Jalan Medan Merdeka No 5 Jakarta", 0)
+
+15
+00:00:59,038 --> 00:00:59,737
+57. hideKeyboard()
+
+16
+00:00:59,738 --> 00:01:02,477
+61. setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - Comment"), "nice product", 0)
+
+17
+00:01:02,478 --> 00:01:03,163
+65. hideKeyboard()
+
+18
+00:01:03,163 --> 00:01:05,568
+69. closeApplication()
+
