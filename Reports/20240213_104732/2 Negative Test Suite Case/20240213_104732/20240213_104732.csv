@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+2 Negative Test Suite Case,,,,13-02-2024 10:47:37,13-02-2024 10:49:09,1m - 32.132s,PASSED
+,,,,,,,
+Test Cases/6 Negatif Case - Add to Chart,,,,13-02-2024 10:47:37,13-02-2024 10:48:34,57.275s,PASSED
+"startApplication(""C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 10:47:38,13-02-2024 10:48:08,30.766s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.TextView""), 0)",,,,13-02-2024 10:48:08,13-02-2024 10:48:13,4.138s,PASSED
+"setText(findTestObject(""Object Repository/1 Checkout Feature/android.widget.EditText - Search""), ""samsung"", 0)",,,,13-02-2024 10:48:13,13-02-2024 10:48:16,3.450s,PASSED
+hideKeyboard(),,,,13-02-2024 10:48:16,13-02-2024 10:48:17,0.923s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.ImageView""), 0)",,,,13-02-2024 10:48:17,13-02-2024 10:48:18,1.599s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.Button - ADD TO CART""), 0)",,,,13-02-2024 10:48:18,13-02-2024 10:48:22,3.203s,PASSED
+"setText(findTestObject(""Object Repository/1 Checkout Feature/android.widget.EditText""), ""10"", 0)",,,,13-02-2024 10:48:22,13-02-2024 10:48:24,2.680s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.Button - ADD""), 0)",,,,13-02-2024 10:48:24,13-02-2024 10:48:25,0.607s,PASSED
+delay(5),,,,13-02-2024 10:48:25,13-02-2024 10:48:30,5.051s,PASSED
+closeApplication(),,,,13-02-2024 10:48:30,13-02-2024 10:48:32,2.252s,PASSED
+Video,,,,13-02-2024 10:48:34,13-02-2024 10:48:34,0.001s,PASSED
+,,,,,,,
+Test Cases/7 Negatif Case - Invalid Search,,,,13-02-2024 10:48:34,13-02-2024 10:49:09,34.587s,PASSED
+"startApplication(""C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 10:48:34,13-02-2024 10:48:54,19.031s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.TextView""), 0)",,,,13-02-2024 10:48:54,13-02-2024 10:48:58,4.077s,PASSED
+"setText(findTestObject(""Object Repository/1 Checkout Feature/android.widget.EditText - Search""), ""One Piece"", 0)",,,,13-02-2024 10:48:58,13-02-2024 10:49:00,2.043s,PASSED
+hideKeyboard(),,,,13-02-2024 10:49:00,13-02-2024 10:49:00,0.730s,PASSED
+delay(5),,,,13-02-2024 10:49:00,13-02-2024 10:49:05,5.009s,PASSED
+closeApplication(),,,,13-02-2024 10:49:05,13-02-2024 10:49:07,1.548s,PASSED
+Video,,,,13-02-2024 10:49:09,13-02-2024 10:49:09,0.001s,PASSED

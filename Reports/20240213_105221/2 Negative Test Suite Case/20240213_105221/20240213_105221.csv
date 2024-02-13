@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+2 Negative Test Suite Case,,,,13-02-2024 10:52:29,13-02-2024 10:52:47,18.643s,FAILED
+,,,,,,,
+Test Cases/6 Negatif Case - Add to Chart,,,,13-02-2024 10:52:37,13-02-2024 10:52:39,2.090s,FAILED
+"startApplication(""C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 10:52:37,13-02-2024 10:52:37,0.014s,FAILED
+,,,,,,,
+Test Cases/7 Negatif Case - Invalid Search,,,,13-02-2024 10:52:45,13-02-2024 10:52:47,2.092s,FAILED
+"startApplication(""C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 10:52:45,13-02-2024 10:52:45,0.005s,FAILED

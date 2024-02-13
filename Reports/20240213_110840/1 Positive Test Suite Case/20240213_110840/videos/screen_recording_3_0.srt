@@ -1,0 +1,44 @@
+1
+00:00:00,066 --> 00:00:18,412
+1. startApplication("C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true)
+
+2
+00:00:18,414 --> 00:00:23,544
+5. tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.TextView"), 0)
+
+3
+00:00:23,545 --> 00:00:26,538
+9. setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText - Search"), "samsung", 0)
+
+4
+00:00:26,538 --> 00:00:27,264
+13. hideKeyboard()
+
+5
+00:00:27,264 --> 00:00:29,796
+17. tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.ImageView"), 0)
+
+6
+00:00:29,797 --> 00:00:30,485
+21. tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.Button - ADD TO CART"), 0)
+
+7
+00:00:30,485 --> 00:00:33,111
+25. setText(findTestObject("Object Repository/1 Checkout Feature/android.widget.EditText"), "1", 0)
+
+8
+00:00:33,112 --> 00:00:33,746
+29. tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.Button - ADD"), 0)
+
+9
+00:00:33,747 --> 00:00:34,964
+33. tap(findTestObject("Object Repository/1 Checkout Feature/android.widget.TextView (1)"), 0)
+
+10
+00:00:34,964 --> 00:00:39,970
+37. delay(5)
+
+11
+00:00:39,970 --> 00:00:41,843
+41. closeApplication()
+

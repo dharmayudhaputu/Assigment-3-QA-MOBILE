@@ -1,0 +1,78 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1 Positive Test Suite Case,,,,13-02-2024 10:58:46,13-02-2024 11:03:07,4m - 21.439s,PASSED
+,,,,,,,
+Test Cases/1 Test Case Checkout,,,,13-02-2024 10:58:46,13-02-2024 11:00:05,1m - 18.568s,PASSED
+"startApplication(""C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 10:58:47,13-02-2024 10:59:23,36.155s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.TextView""), 0)",,,,13-02-2024 10:59:23,13-02-2024 10:59:27,4.348s,PASSED
+"setText(findTestObject(""Object Repository/1 Checkout Feature/android.widget.EditText - Search""), ""samsung"", 0)",,,,13-02-2024 10:59:27,13-02-2024 10:59:32,4.164s,PASSED
+hideKeyboard(),,,,13-02-2024 10:59:32,13-02-2024 10:59:33,1.504s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.ImageView""), 0)",,,,13-02-2024 10:59:33,13-02-2024 10:59:34,0.722s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.Button - ADD TO CART""), 0)",,,,13-02-2024 10:59:34,13-02-2024 10:59:38,4.516s,PASSED
+"setText(findTestObject(""Object Repository/1 Checkout Feature/android.widget.EditText""), ""1"", 0)",,,,13-02-2024 10:59:38,13-02-2024 10:59:41,2.686s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.Button - ADD""), 0)",,,,13-02-2024 10:59:41,13-02-2024 10:59:42,0.681s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.TextView (1)""), 0)",,,,13-02-2024 10:59:42,13-02-2024 10:59:43,0.983s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.Button - CHECKOUT""), 0)",,,,13-02-2024 10:59:43,13-02-2024 10:59:44,1.344s,PASSED
+"setText(findTestObject(""Object Repository/1 Checkout Feature/android.widget.EditText - Your Name""), ""yudha"", 0)",,,,13-02-2024 10:59:44,13-02-2024 10:59:48,4.185s,PASSED
+"setText(findTestObject(""Object Repository/1 Checkout Feature/android.widget.EditText - your.emailgmail.com""), ""yudha@gmail.com"", 0)",,,,13-02-2024 10:59:48,13-02-2024 10:59:51,2.636s,PASSED
+"setText(findTestObject(""Object Repository/1 Checkout Feature/android.widget.EditText - 628123456789""), ""+6281353081122"", 0)",,,,13-02-2024 10:59:51,13-02-2024 10:59:53,2.392s,PASSED
+"setText(findTestObject(""Object Repository/1 Checkout Feature/android.widget.EditText - Your Address""), ""Jalan Medan Merdeka No 5 Jakarta"", 0)",,,,13-02-2024 10:59:53,13-02-2024 10:59:56,2.427s,PASSED
+hideKeyboard(),,,,13-02-2024 10:59:56,13-02-2024 10:59:57,1.060s,PASSED
+"setText(findTestObject(""Object Repository/1 Checkout Feature/android.widget.EditText - Comment""), ""nice product"", 0)",,,,13-02-2024 10:59:57,13-02-2024 11:00:00,2.727s,PASSED
+hideKeyboard(),,,,13-02-2024 11:00:00,13-02-2024 11:00:00,0.858s,PASSED
+closeApplication(),,,,13-02-2024 11:00:00,13-02-2024 11:00:03,2.380s,PASSED
+Video,,,,13-02-2024 11:00:05,13-02-2024 11:00:05,0.000s,PASSED
+,,,,,,,
+Test Cases/2 Test Case Search Item,,,,13-02-2024 11:00:05,13-02-2024 11:00:51,46.588s,PASSED
+"startApplication(""C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 11:00:05,13-02-2024 11:00:31,26.075s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.TextView""), 0)",,,,13-02-2024 11:00:31,13-02-2024 11:00:36,4.867s,PASSED
+"setText(findTestObject(""Object Repository/1 Checkout Feature/android.widget.EditText - Search""), ""samsung"", 0)",,,,13-02-2024 11:00:36,13-02-2024 11:00:39,3.265s,PASSED
+hideKeyboard(),,,,13-02-2024 11:00:39,13-02-2024 11:00:41,1.433s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.ImageView""), 0)",,,,13-02-2024 11:00:41,13-02-2024 11:00:42,1.663s,PASSED
+delay(5),,,,13-02-2024 11:00:42,13-02-2024 11:00:47,5.104s,PASSED
+closeApplication(),,,,13-02-2024 11:00:47,13-02-2024 11:00:49,2.019s,PASSED
+Video,,,,13-02-2024 11:00:51,13-02-2024 11:00:51,0.001s,PASSED
+,,,,,,,
+Test Cases/3 Add to chart,,,,13-02-2024 11:00:51,13-02-2024 11:01:38,46.572s,PASSED
+"startApplication(""C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 11:00:52,13-02-2024 11:01:10,18.681s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.TextView""), 0)",,,,13-02-2024 11:01:10,13-02-2024 11:01:15,5.071s,PASSED
+"setText(findTestObject(""Object Repository/1 Checkout Feature/android.widget.EditText - Search""), ""samsung"", 0)",,,,13-02-2024 11:01:15,13-02-2024 11:01:18,3.113s,PASSED
+hideKeyboard(),,,,13-02-2024 11:01:18,13-02-2024 11:01:19,0.830s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.ImageView""), 0)",,,,13-02-2024 11:01:19,13-02-2024 11:01:21,1.614s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.Button - ADD TO CART""), 0)",,,,13-02-2024 11:01:21,13-02-2024 11:01:23,2.428s,PASSED
+"setText(findTestObject(""Object Repository/1 Checkout Feature/android.widget.EditText""), ""1"", 0)",,,,13-02-2024 11:01:23,13-02-2024 11:01:26,2.950s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.Button - ADD""), 0)",,,,13-02-2024 11:01:26,13-02-2024 11:01:27,0.665s,PASSED
+"tap(findTestObject(""Object Repository/1 Checkout Feature/android.widget.TextView (1)""), 0)",,,,13-02-2024 11:01:27,13-02-2024 11:01:28,1.111s,PASSED
+delay(5),,,,13-02-2024 11:01:28,13-02-2024 11:01:33,5.008s,PASSED
+closeApplication(),,,,13-02-2024 11:01:33,13-02-2024 11:01:36,2.907s,PASSED
+Video,,,,13-02-2024 11:01:38,13-02-2024 11:01:38,0.002s,PASSED
+,,,,,,,
+Test Cases/4 Test Case Kategori,,,,13-02-2024 11:01:38,13-02-2024 11:02:27,48.646s,PASSED
+"startApplication(""C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 11:01:38,13-02-2024 11:02:03,25.202s,PASSED
+"tap(findTestObject(""Object Repository/2 Fitur Kategori/android.widget.FrameLayout""), 0)",,,,13-02-2024 11:02:03,13-02-2024 11:02:08,4.762s,PASSED
+"tap(findTestObject(""Object Repository/2 Fitur Kategori/android.widget.RelativeLayout""), 0)",,,,13-02-2024 11:02:08,13-02-2024 11:02:10,2.223s,PASSED
+"tap(findTestObject(""Object Repository/2 Fitur Kategori/android.widget.ImageView""), 0)",,,,13-02-2024 11:02:10,13-02-2024 11:02:11,0.240s,PASSED
+"tap(findTestObject(""Object Repository/2 Fitur Kategori/android.widget.ImageButton""), 0)",,,,13-02-2024 11:02:11,13-02-2024 11:02:11,0.272s,PASSED
+"tap(findTestObject(""Object Repository/2 Fitur Kategori/android.widget.ImageButton""), 0)",,,,13-02-2024 11:02:11,13-02-2024 11:02:13,2.380s,PASSED
+"tap(findTestObject(""Object Repository/2 Fitur Kategori/android.widget.RelativeLayout (1)""), 0)",,,,13-02-2024 11:02:13,13-02-2024 11:02:16,2.467s,PASSED
+"tap(findTestObject(""Object Repository/2 Fitur Kategori/android.widget.ImageView (1)""), 0)",,,,13-02-2024 11:02:16,13-02-2024 11:02:16,0.333s,PASSED
+"tap(findTestObject(""Object Repository/2 Fitur Kategori/android.widget.ImageButton (1)""), 0)",,,,13-02-2024 11:02:16,13-02-2024 11:02:16,0.285s,PASSED
+"tap(findTestObject(""Object Repository/2 Fitur Kategori/android.widget.ImageButton""), 0)",,,,13-02-2024 11:02:16,13-02-2024 11:02:18,1.530s,PASSED
+delay(5),,,,13-02-2024 11:02:18,13-02-2024 11:02:23,5.019s,PASSED
+closeApplication(),,,,13-02-2024 11:02:23,13-02-2024 11:02:25,1.722s,PASSED
+Video,,,,13-02-2024 11:02:27,13-02-2024 11:02:27,0.001s,PASSED
+,,,,,,,
+"Test Cases/5 Test Case - Help (payment, how to order etc)",,,,13-02-2024 11:02:27,13-02-2024 11:03:07,40.788s,PASSED
+"startApplication(""C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 11:02:27,13-02-2024 11:02:45,18.687s,PASSED
+"tap(findTestObject(""Object Repository/Fitur Help/android.widget.FrameLayout (1)""), 0)",,,,13-02-2024 11:02:45,13-02-2024 11:02:50,4.479s,PASSED
+"tap(findTestObject(""Object Repository/Fitur Help/android.widget.RelativeLayout""), 0)",,,,13-02-2024 11:02:50,13-02-2024 11:02:53,2.644s,PASSED
+"tap(findTestObject(""Object Repository/Fitur Help/android.widget.ImageButton""), 0)",,,,13-02-2024 11:02:53,13-02-2024 11:02:53,0.660s,PASSED
+"tap(findTestObject(""Object Repository/Fitur Help/android.widget.RelativeLayout (1)""), 0)",,,,13-02-2024 11:02:53,13-02-2024 11:02:56,2.426s,PASSED
+"tap(findTestObject(""Object Repository/Fitur Help/android.widget.ImageButton""), 0)",,,,13-02-2024 11:02:56,13-02-2024 11:02:56,0.187s,PASSED
+"tap(findTestObject(""Object Repository/Fitur Help/android.widget.RelativeLayout (2)""), 0)",,,,13-02-2024 11:02:56,13-02-2024 11:02:58,2.319s,PASSED
+"tap(findTestObject(""Object Repository/Fitur Help/android.widget.ImageButton""), 0)",,,,13-02-2024 11:02:58,13-02-2024 11:02:58,0.155s,PASSED
+"tap(findTestObject(""Object Repository/Fitur Help/android.widget.RelativeLayout (3)""), 0)",,,,13-02-2024 11:02:58,13-02-2024 11:02:59,0.935s,PASSED
+"tap(findTestObject(""Object Repository/Fitur Help/android.widget.ImageButton""), 0)",,,,13-02-2024 11:02:59,13-02-2024 11:03:01,1.651s,PASSED
+"tap(findTestObject(""Object Repository/Fitur Help/android.widget.RelativeLayout (4)""), 0)",,,,13-02-2024 11:03:01,13-02-2024 11:03:03,2.284s,PASSED
+"tap(findTestObject(""Object Repository/Fitur Help/android.widget.ImageButton""), 0)",,,,13-02-2024 11:03:03,13-02-2024 11:03:03,0.225s,PASSED
+closeApplication(),,,,13-02-2024 11:03:03,13-02-2024 11:03:05,1.954s,PASSED
+Video,,,,13-02-2024 11:03:07,13-02-2024 11:03:07,0.001s,PASSED

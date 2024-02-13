@@ -1,0 +1,48 @@
+1
+00:00:00,084 --> 00:00:25,286
+1. startApplication("C:\Users\ACER\Downloads\android\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true)
+
+2
+00:00:25,287 --> 00:00:30,047
+5. tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.FrameLayout"), 0)
+
+3
+00:00:30,047 --> 00:00:32,272
+9. tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.RelativeLayout"), 0)
+
+4
+00:00:32,273 --> 00:00:32,512
+13. tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.ImageView"), 0)
+
+5
+00:00:32,513 --> 00:00:32,782
+17. tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.ImageButton"), 0)
+
+6
+00:00:32,784 --> 00:00:35,164
+21. tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.ImageButton"), 0)
+
+7
+00:00:35,165 --> 00:00:37,633
+25. tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.RelativeLayout (1)"), 0)
+
+8
+00:00:37,634 --> 00:00:37,965
+29. tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.ImageView (1)"), 0)
+
+9
+00:00:37,966 --> 00:00:38,251
+33. tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.ImageButton (1)"), 0)
+
+10
+00:00:38,251 --> 00:00:39,780
+37. tap(findTestObject("Object Repository/2 Fitur Kategori/android.widget.ImageButton"), 0)
+
+11
+00:00:39,782 --> 00:00:44,803
+41. delay(5)
+
+12
+00:00:44,804 --> 00:00:46,527
+45. closeApplication()
+
