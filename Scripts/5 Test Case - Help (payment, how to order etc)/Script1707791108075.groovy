@@ -44,3 +44,5 @@ Mobile.tap(findTestObject('Object Repository/Fitur Help/android.widget.ImageButt
 
 Mobile.closeApplication()
 
+//commit
+
